@@ -1,0 +1,8 @@
+{
+  "type": "content",
+  "modid": "cuteclothingfixed",
+  "name": "[1.2x] Eldritch's Cute Clothing",
+  "authors": ["Eldritch Sinner", "nadyamcg"],
+  "description": "Adds cute outfits with improved compatibility and variant system",
+  "version": "2.0.0"
+}

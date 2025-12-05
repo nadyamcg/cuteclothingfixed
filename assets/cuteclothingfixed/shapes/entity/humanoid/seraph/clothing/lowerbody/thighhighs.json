@@ -1,0 +1,78 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 128,
+	"textureHeight": 128,
+	"textureSizes": {
+		"thighhighs": [128, 128]
+	},
+	"textures": {
+		"thighhighs": "entity/humanoid/seraphclothes/lowerbody/thighhighs"
+	},
+	"elements": [
+		{
+		"name": "UpperFootRWrap",
+		"stepParentName": "UpperFootR",
+		"from": [ -0.2, -0.2, -0.2 ],
+		"to": [ 4.4, 9.2, 3.4 ],
+			"rotationOrigin": [ 2.0, 4.5, 1.5 ],
+			"faces": {
+				"north": { "texture": "#thighhighs", "uv": [ 8.0, 74.0, 16.0, 92.0 ] },
+				"east": { "texture": "#thighhighs", "uv": [ 2.0, 74.0, 8.0, 92.0 ] },
+				"south": { "texture": "#thighhighs", "uv": [ 22.0, 74.0, 30.0, 92.0 ] },
+				"west": { "texture": "#thighhighs", "uv": [ 16.0, 74.0, 22.0, 92.0 ] },
+				"up": { "texture": "#thighhighs", "uv": [ 16.0, 66.0, 22.0, 74.0 ], "rotation": 90 },
+				"down": { "texture": "#thighhighs", "uv": [ 16.0, 92.0, 22.0, 100.0 ], "rotation": 90 }
+			}
+		},
+			{
+		"name": "LowerFootRWrap",
+		"stepParentName": "LowerFootR",
+		"from": [ -0.2, -0.2, -0.2 ],
+		"to": [ 4.3, 10.2, 3.3 ],
+			"rotationOrigin": [ 2.0, 5.0, 1.5 ],
+			"faces": {
+				"north": { "texture": "#thighhighs", "uv": [ 8.0, 100.0, 16.0, 120.0 ] },
+				"east": { "texture": "#thighhighs", "uv": [ 2.0, 100.0, 8.0, 120.0 ] },
+				"south": { "texture": "#thighhighs", "uv": [ 22.0, 100.0, 30.0, 120.0 ] },
+				"west": { "texture": "#thighhighs", "uv": [ 16.0, 100.0, 22.0, 120.0 ] },
+				"up": { "texture": "#thighhighs", "uv": [ 16.0, 92.0, 22.0, 100.0 ], "rotation": 90 },
+				"down": { "texture": "#thighhighs", "uv": [ 16.0, 120.0, 22.0, 128.0 ], "rotation": 90 }
+			}
+		},
+			{
+		"name": "UpperFootLWrap",
+		"stepParentName": "UpperFootL",
+		"from": [ -0.2, -0.2, -0.2 ],
+		"to": [ 4.4, 9.2, 3.4 ],
+			"rotationOrigin": [ 2.0, 4.5, 1.5 ],
+			"faces": {
+				"north": { "texture": "#thighhighs", "uv": [ 32.0, 74.0, 40.0, 92.0 ] },
+				"east": { "texture": "#thighhighs", "uv": [ 54.0, 74.0, 60.0, 92.0 ] },
+				"south": { "texture": "#thighhighs", "uv": [ 46.0, 74.0, 54.0, 92.0 ] },
+				"west": { "texture": "#thighhighs", "uv": [ 40.0, 74.0, 46.0, 92.0 ] },
+				"up": { "texture": "#thighhighs", "uv": [ 40.0, 66.0, 46.0, 74.0 ], "rotation": 90 },
+				"down": { "texture": "#thighhighs", "uv": [ 40.0, 92.0, 46.0, 100.0 ], "rotation": 90 }
+			}
+		},
+			{
+		"name": "LowerFootLWrap",
+		"stepParentName": "LowerFootL",
+		"from": [ -0.2, -0.2, -0.2 ],
+		"to": [ 4.3, 10.2, 3.3 ],
+			"rotationOrigin": [ 2.0, 5.0, 1.5 ],
+			"faces": {
+				"north": { "texture": "#thighhighs", "uv": [ 32.0, 100.0, 40.0, 120.0 ] },
+				"east": { "texture": "#thighhighs", "uv": [ 54.0, 100.0, 60.0, 120.0 ] },
+				"south": { "texture": "#thighhighs", "uv": [ 46.0, 100.0, 54.0, 120.0 ] },
+				"west": { "texture": "#thighhighs", "uv": [ 40.0, 100.0, 46.0, 120.0 ] },
+				"up": { "texture": "#thighhighs", "uv": [ 40.0, 92.0, 46.0, 100.0 ], "rotation": 90 },
+				"down": { "texture": "#thighhighs", "uv": [ 40.0, 120.0, 46.0, 128.0 ], "rotation": 90 }
+			}
+		}
+	],
+	"animations": []
+}

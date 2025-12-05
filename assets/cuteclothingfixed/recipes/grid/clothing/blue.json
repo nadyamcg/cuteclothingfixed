@@ -1,0 +1,35 @@
+[
+	{
+		"ingredientPattern": "SCC",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:cloth-plain", "quantity": 2 },
+			"C": { "type": "item", "code": "game:cloth-blue", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-lowerbody-blue", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "SSS,_C_,GC_",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-blue", "quantity": 1 },
+			"G": { "type": "item", "code": "game:sewingkit", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-upperbody-blue", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "SSS,_C_,GE_",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-blue", "quantity": 1 },
+			"E": { "type": "item", "code": "game:cloth-red", "quantity": 1 },
+			"G": { "type": "item", "code": "game:sewingkit", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-upperbody-redblue", "quantity": 1 }
+	}
+]

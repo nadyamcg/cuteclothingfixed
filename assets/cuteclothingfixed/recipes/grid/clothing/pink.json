@@ -1,0 +1,12 @@
+[
+	{
+		"ingredientPattern": "SCC",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:cloth-plain", "quantity": 2 },
+			"C": { "type": "item", "code": "game:cloth-pink", "quantity": 2 }
+		},
+		"width": 3,
+		"height": 1,
+		"output": { "type": "item", "code": "clothes-lowerbody-pink", "quantity": 1 }
+	}
+]

@@ -1,0 +1,271 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"kosovorotka": [64, 64]
+	},
+	"textures": {
+		"kosovorotka": "entity/humanoid/seraphclothes/upperbody/kosovorotka"
+	},
+	"elements": [
+		{
+			"name": "kosovorotka",
+			"from": [0, 0, 0],
+			"to": [0, 0, 0],
+			"rotationOrigin": [0, 0, 0],
+			"children": [
+				{
+					"name": "hidecollar",
+					"from": [-0.03, 0.5, -0.03],
+					"to": [3.03, 2.5, 3.03],
+					"rotationOrigin": [0, 0.5, 0],
+					"uv": [19.5, 2.5],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [9.5, 2.5, 12.5, 4.5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#kosovorotka", "uv": [5, 3, 8, 5], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#kosovorotka", "uv": [13.5, 3, 16.5, 5], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#kosovorotka", "uv": [16.5, 3, 19.5, 5], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#kosovorotka", "uv": [0, 0, 1, 1], "autoUv": false, "snapUv": false},
+						"down": {"texture": "#kosovorotka", "uv": [0, 0, 1, 1], "autoUv": false, "snapUv": false}
+					},
+					"stepParentName": "Neck"
+				},
+				{
+					"name": "LowerArmLorigin",
+					"from": [-0.03, -0.03, -0.03],
+					"to": [2.53, 8.03, 2.03],
+					"rotationOrigin": [1.3, 7.8, 1],
+					"uv": [0, 8],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [42.5, 51.5, 45, 59.5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#kosovorotka", "uv": [49.5, 51.5, 51.5, 59.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"south": {"texture": "#kosovorotka", "uv": [47, 51.5, 49.5, 59.5], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#kosovorotka", "uv": [45, 51.5, 47, 59.5], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#kosovorotka", "uv": [45, 48.5, 47, 51.5], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"down": {"texture": "#kosovorotka", "uv": [36, 59.5, 38, 62], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					},
+					"stepParentName": "LowerArmL"
+				},
+				{
+					"name": "LowerArmROrigin",
+					"from": [-0.03, -0.03, -0.03],
+					"to": [2.53, 8.03, 2.03],
+					"rotationOrigin": [1.3, 7.8, 1],
+					"uv": [0, 0],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [33.5, 51.5, 36, 59.5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#kosovorotka", "uv": [31.5, 51.5, 33.5, 59.5], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#kosovorotka", "uv": [38, 51.5, 40.5, 59.5], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#kosovorotka", "uv": [36, 51.5, 38, 59.5], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#kosovorotka", "uv": [36, 48.5, 38, 51.5], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"down": {"texture": "#kosovorotka", "uv": [45, 59.5, 47, 62], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					},
+					"stepParentName": "LowerArmR"
+				},
+				{
+					"name": "LowerTorsoOrigin",
+					"from": [3, 3, 3],
+					"to": [3, 3, 3],
+					"rotationOrigin": [3, 3, 3],
+					"children": [
+						{
+							"name": "coatFrontTile",
+							"from": [-2.93, -3.03, -0.03],
+							"to": [-2.93, -3.03, -0.03],
+							"rotationOrigin": [-2.93, -3.03, -0.03],
+							"rotationZ": -3.5,
+							"children": [
+								{
+									"name": "coatFrontTile_geo",
+									"from": [-0.09, -4.43, -3],
+									"to": [0.97, 0.13, 3.06],
+									"rotationOrigin": [-0.09, -4.03, -3],
+									"uv": [4.5, 38.85],
+									"shade": true,
+									"faces": {
+										"north": {"texture": "#kosovorotka", "uv": [45, 15, 46, 19.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+										"east": {"texture": "#kosovorotka", "uv": [41, 14.5, 47, 18.5], "autoUv": false, "snapUv": false},
+										"south": {"texture": "#kosovorotka", "uv": [52, 15, 53, 19.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+										"west": {"texture": "#kosovorotka", "uv": [46, 15, 52, 19.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+										"up": {"texture": "#kosovorotka", "uv": [0, 0, 1, 1], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#kosovorotka", "uv": [57, 9.5, 63, 10.5], "rotation": 90, "autoUv": false, "snapUv": false}
+									},
+									"stepParentName": ""
+								}
+							]
+						},
+						{
+							"name": "coatBackTile",
+							"from": [2.03, -3.03, -0.03],
+							"to": [2.03, -3.03, -0.03],
+							"rotationOrigin": [2.03, -3.03, -0.03],
+							"rotationZ": -5,
+							"children": [
+								{
+									"name": "coatBackTile_geo",
+									"from": [-1.07, -4.5, -3],
+									"to": [-0.01, 0.03, 3.06],
+									"rotationOrigin": [-1.07, -4.5, -3],
+									"uv": [24, 14],
+									"shade": true,
+									"faces": {
+										"north": {"texture": "#kosovorotka", "uv": [63, 15.5, 63.5, 20], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+										"east": {"texture": "#kosovorotka", "uv": [57, 15.5, 63, 20], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+										"south": {"texture": "#kosovorotka", "uv": [56, 15.5, 57, 20], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+										"west": {"texture": "#kosovorotka", "uv": [34, 5, 40, 9], "autoUv": false, "snapUv": false},
+										"up": {"texture": "#kosovorotka", "uv": [0, 0, 1, 1], "autoUv": false, "snapUv": false},
+										"down": {"texture": "#kosovorotka", "uv": [57, 9, 63, 10], "rotation": 90, "autoUv": false, "snapUv": false}
+									},
+									"stepParentName": ""
+								}
+							]
+						},
+						{
+							"name": "LowerTorsoOrigin_geo",
+							"from": [-3.03, -3.03, -3.03],
+							"to": [2.03, 2.03, 3.03],
+							"rotationOrigin": [-3.03, -3.03, -3.03],
+							"uv": [9, 10],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#kosovorotka", "uv": [41, 10, 46, 15], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#kosovorotka", "uv": [57, 10.5, 63, 15.5], "autoUv": false, "snapUv": false},
+								"south": {"texture": "#kosovorotka", "uv": [52, 10, 57, 15], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#kosovorotka", "uv": [46, 10, 52, 15], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#kosovorotka", "uv": [34, 7, 40, 12], "rotation": 270, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"down": {"texture": "#kosovorotka", "uv": [34.5, 6, 39.5, 10], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+							},
+							"stepParentName": ""
+						}
+					],
+					"stepParentName": "LowerTorso"
+				},
+				{
+					"name": "UpperArmLorigin",
+					"from": [-0.03, -0.03, -0.03],
+					"to": [3.03, 7.03, 2.03],
+					"rotationOrigin": [1.5, 7, 1],
+					"uv": [0, 13],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [42, 41.5, 45, 48.5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#kosovorotka", "uv": [50, 41.5, 52, 48.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"south": {"texture": "#kosovorotka", "uv": [47, 41.5, 50, 48.5], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"west": {"texture": "#kosovorotka", "uv": [45, 41.5, 47, 48.5], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#kosovorotka", "uv": [45, 38.5, 47, 41.5], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"down": {"texture": "#kosovorotka", "uv": [20, 33, 23, 37], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					},
+					"stepParentName": "UpperArmL"
+				},
+				{
+					"name": "UpperArmROrigin",
+					"from": [-0.03, -0.03, -0.03],
+					"to": [3.03, 7.03, 2.03],
+					"rotationOrigin": [1.5, 7, 1],
+					"uv": [8, 21],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [33, 41.5, 36, 48.5], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#kosovorotka", "uv": [31, 41.5, 33, 48.5], "autoUv": false, "snapUv": false},
+						"south": {"texture": "#kosovorotka", "uv": [38, 41.5, 41, 48.5], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#kosovorotka", "uv": [36, 41.5, 38, 48.5], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#kosovorotka", "uv": [36, 38.5, 38, 41.5], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"down": {"texture": "#kosovorotka", "uv": [8, 33, 11, 37], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+					},
+					"stepParentName": "UpperArmR",
+					"climateColorMap": "",
+					"gradientShade": false,
+					"renderPass": 0,
+					"seasonColorMap": ""
+				},
+				{
+					"name": "UpperFootLorigin",
+					"from": [-0.03, -0.03, -0.03],
+					"to": [4.23, 9.03, 3.23],
+					"rotationOrigin": [2, 7, 0],
+					"uv": [15, 19.62],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [23, 37, 27, 46], "autoUv": false, "snapUv": false},
+						"east": {"texture": "#kosovorotka", "uv": [27, 37, 30, 46], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"south": {"texture": "#kosovorotka", "uv": [23, 37, 27, 46], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"west": {"texture": "#kosovorotka", "uv": [20, 37, 23, 46], "autoUv": false, "snapUv": false},
+						"up": {"texture": "#kosovorotka", "uv": [52.5, 11, 56.5, 14], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"down": {"texture": "#kosovorotka", "uv": [0, 0, 1, 1], "autoUv": false, "snapUv": false}
+					},
+					"stepParentName": "UpperFootL"
+				},
+				{
+					"name": "UpperFootRorigin",
+					"from": [-0.03, -0.03, -0.03],
+					"to": [4.23, 9.03, 3.23],
+					"rotationOrigin": [2, 7, 0],
+					"uv": [1, 19.62],
+					"shade": true,
+					"faces": {
+						"north": {"texture": "#kosovorotka", "uv": [4, 37, 8, 46], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [0, 1, 1, 0]},
+						"east": {"texture": "#kosovorotka", "uv": [1, 37, 4, 46], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"south": {"texture": "#kosovorotka", "uv": [4, 37, 8, 46], "autoUv": false, "snapUv": false},
+						"west": {"texture": "#kosovorotka", "uv": [8, 36.97, 11, 45.97], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+						"up": {"texture": "#kosovorotka", "uv": [41.5, 11, 45.5, 14], "rotation": 180, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+						"down": {"texture": "#kosovorotka", "uv": [0, 0, 1, 1], "autoUv": false, "snapUv": false}
+					},
+					"stepParentName": "UpperFootR"
+				},
+				{
+					"name": "UpperTorsoOrigin",
+					"from": [2, 2, 3.25],
+					"to": [2, 2, 3.25],
+					"rotationOrigin": [2, 2, 3.25],
+					"children": [
+						{
+							"name": "Blackout",
+							"from": [-1.93, -1.23, -2.68],
+							"to": [2.87, 2.77, 2.32],
+							"rotationOrigin": [-1.93, -1.23, -2.68],
+							"uv": [23, 9],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#kosovorotka", "uv": [34.5, 5.5, 39.3, 9.5], "autoUv": false, "snapUv": false},
+								"east": {"texture": "#kosovorotka", "uv": [35, 9, 39, 14], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"south": {"texture": "#kosovorotka", "uv": [34.5, 8, 39.3, 12], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"west": {"texture": "#kosovorotka", "uv": [35, 9.5, 39, 14.5], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"up": {"texture": "#kosovorotka", "uv": [34.5, 7.5, 39, 12.5], "autoUv": false, "snapUv": false},
+								"down": {"texture": "#kosovorotka", "uv": [34.5, 8, 39, 13], "autoUv": false, "snapUv": false}
+							},
+							"stepParentName": ""
+						},
+						{
+							"name": "UpperTorsoOrigin_geo",
+							"from": [-2.03, -2.03, -3.28],
+							"to": [3.03, 3.03, 2.98],
+							"rotationOrigin": [-2.03, -2.03, -3.28],
+							"uv": [10, 0],
+							"shade": true,
+							"faces": {
+								"north": {"texture": "#kosovorotka", "uv": [41, 5, 46, 10], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1], "windData": [1, 1, 1, 1]},
+								"east": {"texture": "#kosovorotka", "uv": [57, 5, 63, 9], "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]},
+								"south": {"texture": "#kosovorotka", "uv": [52, 5, 57, 10], "autoUv": false, "snapUv": false},
+								"west": {"texture": "#kosovorotka", "uv": [46, 5, 52, 10], "autoUv": false, "snapUv": false},
+								"up": {"texture": "#kosovorotka", "uv": [46, 0, 52, 5], "rotation": 90, "autoUv": false, "snapUv": false},
+								"down": {"texture": "#kosovorotka", "uv": [34, 9.5, 40, 14.5], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1, -1, -1, -1]}
+							},
+							"stepParentName": ""
+						}
+					],
+					"stepParentName": "UpperTorso"
+				}
+			],
+			"stepParentName": ""
+		}
+	],
+	"animations": []
+}
