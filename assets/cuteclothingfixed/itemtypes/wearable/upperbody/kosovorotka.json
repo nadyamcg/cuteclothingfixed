@@ -16,7 +16,7 @@
 	},
 	"textures": {
 		"seraph": { "base": "game:block/transparent" },
-		"kosovorotka": { "base": "entity/humanoid/seraphclothes/upperbody/{upperbody}" }
+		"kosovorotka": { "base": "entity/humanoid/seraphclothes/upperbody/kosovorotka-{kosovorotka}" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
 	"renderAlphaTest": 0.25,
