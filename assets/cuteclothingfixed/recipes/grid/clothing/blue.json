@@ -31,5 +31,17 @@
 		"width": 3,
 		"height": 3,
 		"output": { "type": "item", "code": "clothes-upperbody-redblue", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "SSS,_C_,GE_",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:cloth-plain", "quantity": 1 },
+			"C": { "type": "item", "code": "game:cloth-blue", "quantity": 1 },
+			"E": { "type": "item", "code": "game:cloth-pink", "quantity": 1 },
+			"G": { "type": "item", "code": "game:sewingkit", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "clothes-upperbody-bluepink", "quantity": 1 }
 	}
 ]

@@ -10,5 +10,7 @@
     "item-clothes-upperbody-blue": "Kosovorotka (Blue)",
     "itemdesc-clothes-upperbody-blue": "<font color=\"#99c9f9\"><i>A traditional Russian Peasant shirt, with blue embroidery.</i></font><br>",
     "item-clothes-upperbody-red": "Kosovorotka (Red)",
-    "itemdesc-clothes-upperbody-red": "<font color=\"#99c9f9\"><i>A traditional Russian Peasant shirt, with red embroidery.</i></font><br>"
+    "itemdesc-clothes-upperbody-red": "<font color=\"#99c9f9\"><i>A traditional Russian Peasant shirt, with red embroidery.</i></font><br>",
+    "item-clothes-upperbody-bluepink": "Kosovorotka (Blue/Pink)",
+    "itemdesc-clothes-upperbody-bluepink": "<font color=\"#99c9f9\"><i>A traditional Russian Peasant shirt, with blue and pink embroidery.</i></font><br>"
 }

@@ -3,7 +3,7 @@
 	"class": "ItemWearable",
 	"variantgroups": [
 		{ "code": "category", "states": ["upperbody"] },
-		{ "code": "kosovorotka", "onVariant": "category", "states": ["blue", "red", "redblue"] }
+		{ "code": "kosovorotka", "onVariant": "category", "states": ["blue", "red", "redblue", "bluepink"] }
 	],
 	"shape": { "base": "entity/humanoid/seraph/clothing/upperbody/kosovorotka" },
 	"storageFlags": 128,
