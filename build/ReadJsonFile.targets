@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskName="ReadJsonFile"
+    TaskFactory="RoslynCodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
+    <ParameterGroup>
+      <FilePath ParameterType="System.String" Required="true" />
+      <Value ParameterType="System.String" Output="true" />
+    </ParameterGroup>
+    <Task>
+      <Using Namespace="System.IO" />
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+        try {
+          if (File.Exists(FilePath)) {
+            string jsonContent = File.ReadAllText(FilePath);
+            Value = jsonContent;
+          } else {
+            Log.LogError($"File not found: {FilePath}");
+          }
+        } catch (Exception ex) {
+          Log.LogError($"Error reading JSON file: {ex.Message}");
+        }
+        ]]>
+      </Code>
+    </Task>
+  </UsingTask>
+</Project>
