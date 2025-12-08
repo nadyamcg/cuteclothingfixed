@@ -14,64 +14,72 @@
 	},
 	"elements": [
 		{
-		"name": "UpperFootRWrap",
-		"stepParentName": "UpperFootR",
-		"from": [ -0.2, -0.2, -0.2 ],
-		"to": [ 4.4, 9.2, 3.4 ],
-			"rotationOrigin": [ 2.0, 4.5, 1.5 ],
+			"name": "UpperFootRWrap",
+			"from": [-0.01, -0.01, -0.01],
+			"to": [4.21, 9, 3.23],
+			"rotationOrigin": [1.99835, 4.70734, 1.31476],
+			"uv": [0, 0],
+			"shade": true,
 			"faces": {
-				"north": { "texture": "#thighhighs", "uv": [ 8.0, 74.0, 16.0, 92.0 ] },
-				"east": { "texture": "#thighhighs", "uv": [ 2.0, 74.0, 8.0, 92.0 ] },
-				"south": { "texture": "#thighhighs", "uv": [ 22.0, 74.0, 30.0, 92.0 ] },
-				"west": { "texture": "#thighhighs", "uv": [ 16.0, 74.0, 22.0, 92.0 ] },
-				"up": { "texture": "#thighhighs", "uv": [ 16.0, 66.0, 22.0, 74.0 ], "rotation": 90 },
-				"down": { "texture": "#thighhighs", "uv": [ 16.0, 92.0, 22.0, 100.0 ], "rotation": 90 }
-			}
+				"north": {"texture": "#thighhighs", "uv": [8, 74, 16, 92], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#thighhighs", "uv": [2, 74, 8, 92], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#thighhighs", "uv": [22, 74, 30, 92], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#thighhighs", "uv": [16, 74, 22, 92], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#thighhighs", "uv": [16, 66, 22, 74], "rotation": 90, "autoUv": false, "snapUv": false},
+				"down": {"texture": "#thighhighs", "uv": [16, 92, 22, 100], "rotation": 90, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "UpperFootR"
 		},
-			{
-		"name": "LowerFootRWrap",
-		"stepParentName": "LowerFootR",
-		"from": [ -0.2, -0.2, -0.2 ],
-		"to": [ 4.3, 10.2, 3.3 ],
-			"rotationOrigin": [ 2.0, 5.0, 1.5 ],
+		{
+			"name": "LowerFootRWrap",
+			"from": [-0.01, -0.01, -0.01],
+			"to": [4.02, 10.3, 3.02],
+			"rotationOrigin": [1.99835, 5.20734, 1.31476],
+			"uv": [0, 0],
+			"shade": true,
 			"faces": {
-				"north": { "texture": "#thighhighs", "uv": [ 8.0, 100.0, 16.0, 120.0 ] },
-				"east": { "texture": "#thighhighs", "uv": [ 2.0, 100.0, 8.0, 120.0 ] },
-				"south": { "texture": "#thighhighs", "uv": [ 22.0, 100.0, 30.0, 120.0 ] },
-				"west": { "texture": "#thighhighs", "uv": [ 16.0, 100.0, 22.0, 120.0 ] },
-				"up": { "texture": "#thighhighs", "uv": [ 16.0, 92.0, 22.0, 100.0 ], "rotation": 90 },
-				"down": { "texture": "#thighhighs", "uv": [ 16.0, 120.0, 22.0, 128.0 ], "rotation": 90 }
-			}
+				"north": {"texture": "#thighhighs", "uv": [8, 100, 16, 120], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#thighhighs", "uv": [2, 100, 8, 120], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#thighhighs", "uv": [22, 100, 30, 120], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#thighhighs", "uv": [16, 100, 22, 120], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#thighhighs", "uv": [16, 92, 22, 100], "rotation": 90, "autoUv": false, "snapUv": false},
+				"down": {"texture": "#thighhighs", "uv": [16, 120, 22, 128], "rotation": 90, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "LowerFootR"
 		},
-			{
-		"name": "UpperFootLWrap",
-		"stepParentName": "UpperFootL",
-		"from": [ -0.2, -0.2, -0.2 ],
-		"to": [ 4.4, 9.2, 3.4 ],
-			"rotationOrigin": [ 2.0, 4.5, 1.5 ],
+		{
+			"name": "UpperFootLWrap",
+			"from": [-0.01, -0.01, -0.01],
+			"to": [4.21, 9, 3.23],
+			"rotationOrigin": [1.99835, 4.7073, 1.31476],
+			"uv": [0, 0],
+			"shade": true,
 			"faces": {
-				"north": { "texture": "#thighhighs", "uv": [ 32.0, 74.0, 40.0, 92.0 ] },
-				"east": { "texture": "#thighhighs", "uv": [ 54.0, 74.0, 60.0, 92.0 ] },
-				"south": { "texture": "#thighhighs", "uv": [ 46.0, 74.0, 54.0, 92.0 ] },
-				"west": { "texture": "#thighhighs", "uv": [ 40.0, 74.0, 46.0, 92.0 ] },
-				"up": { "texture": "#thighhighs", "uv": [ 40.0, 66.0, 46.0, 74.0 ], "rotation": 90 },
-				"down": { "texture": "#thighhighs", "uv": [ 40.0, 92.0, 46.0, 100.0 ], "rotation": 90 }
-			}
+				"north": {"texture": "#thighhighs", "uv": [32, 74, 40, 92], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#thighhighs", "uv": [54, 74, 60, 92], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#thighhighs", "uv": [46, 74, 54, 92], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#thighhighs", "uv": [40, 74, 46, 92], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#thighhighs", "uv": [40, 66, 46, 74], "rotation": 90, "autoUv": false, "snapUv": false},
+				"down": {"texture": "#thighhighs", "uv": [40, 92, 46, 100], "rotation": 90, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "UpperFootL"
 		},
-			{
-		"name": "LowerFootLWrap",
-		"stepParentName": "LowerFootL",
-		"from": [ -0.2, -0.2, -0.2 ],
-		"to": [ 4.3, 10.2, 3.3 ],
-			"rotationOrigin": [ 2.0, 5.0, 1.5 ],
+		{
+			"name": "LowerFootLWrap",
+			"from": [-0.01, -0.01, -0.01],
+			"to": [4.02, 10.3, 3.02],
+			"rotationOrigin": [1.99835, 5.20734, 1.31476],
+			"uv": [0, 0],
+			"shade": true,
 			"faces": {
-				"north": { "texture": "#thighhighs", "uv": [ 32.0, 100.0, 40.0, 120.0 ] },
-				"east": { "texture": "#thighhighs", "uv": [ 54.0, 100.0, 60.0, 120.0 ] },
-				"south": { "texture": "#thighhighs", "uv": [ 46.0, 100.0, 54.0, 120.0 ] },
-				"west": { "texture": "#thighhighs", "uv": [ 40.0, 100.0, 46.0, 120.0 ] },
-				"up": { "texture": "#thighhighs", "uv": [ 40.0, 92.0, 46.0, 100.0 ], "rotation": 90 },
-				"down": { "texture": "#thighhighs", "uv": [ 40.0, 120.0, 46.0, 128.0 ], "rotation": 90 }
-			}
+				"north": {"texture": "#thighhighs", "uv": [32, 100, 40, 120], "autoUv": false, "snapUv": false},
+				"east": {"texture": "#thighhighs", "uv": [54, 100, 60, 120], "autoUv": false, "snapUv": false},
+				"south": {"texture": "#thighhighs", "uv": [46, 100, 54, 120], "autoUv": false, "snapUv": false},
+				"west": {"texture": "#thighhighs", "uv": [40, 100, 46, 120], "autoUv": false, "snapUv": false},
+				"up": {"texture": "#thighhighs", "uv": [40, 92, 46, 100], "rotation": 90, "autoUv": false, "snapUv": false},
+				"down": {"texture": "#thighhighs", "uv": [40, 120, 46, 128], "rotation": 90, "autoUv": false, "snapUv": false}
+			},
+			"stepParentName": "LowerFootL"
 		}
 	],
 	"animations": []
