@@ -3,7 +3,7 @@
 	"class": "ItemWearable",
 	"variantgroups": [
 		{ "code": "category", "states": ["lowerbody"] },
-		{ "code": "thighhighs", "onVariant": "category", "states": ["basic", "blue", "pink"] }
+		{ "code": "thighhighs", "onVariant": "category", "states": ["basic", "blue", "pink", "white"] }
 	],
 	"shape": { "base": "entity/humanoid/seraph/clothing/lowerbody/thighhighs" },
 	"storageFlags": 128,
